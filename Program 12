@@ -1,0 +1,32 @@
+<?php
+
+echo "<h1>PHP Math Functions</h1>";
+
+// Min and Max
+echo "<h3>1. Min and Max</h3>";
+$numbers = [4, 9, -2, 6, 1];
+echo "Numbers: " . implode(", ", $numbers) . "<br>";
+echo "min(): " . min($numbers) . "<br>";
+echo "max(): " . max($numbers) . "<br>";
+
+// Absolute Value
+echo "<h3>2. Absolute Value</h3>";
+$negative = -15;
+echo "abs($negative) = " . abs($negative) . "<br>";
+
+// Ceiling
+echo "<h3>3. Ceiling</h3>";
+$floatNum = 4.3;
+echo "ceil($floatNum) = " . ceil($floatNum) . "<br>";
+
+// Square Root
+echo "<h3>4. Square Root</h3>";
+$num = 16;
+echo "sqrt($num) = " . sqrt($num) . "<br>";
+
+// Power
+echo "<h3>5. Power</h3>";
+$base = 2;
+$exp = 8;
+echo "pow($base, $exp) = " . pow($base, $exp) . "<br>";
+?>
