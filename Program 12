@@ -1,3 +1,5 @@
+Q12. Write PHP script to demonstrate string function
+
 <?php
 
 echo "<h1>PHP Math Functions</h1>";
