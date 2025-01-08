@@ -1,0 +1,21 @@
+Q14. Write a PHP script to demonstrate the file function
+
+<?php
+// Define the file name
+$filename = "abc.txt";
+
+// Check if the file exists
+if (file_exists($filename)) {
+    // Read the file into an array, one line per element
+    $lines = file($filename);
+
+    // Display each line
+    echo "File content:\n";
+    foreach ($lines as $lineNumber => $line) {
+        echo "Line " . ($lineNumber + 1) . ": " . $line;
+    }
+} else {
+    // Show an error if the file doesn't exist
+    echo "The file '$filename' does not exist.";
+}
+?>
